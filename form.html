@@ -13,8 +13,17 @@
     We will be using this
     information to help train the tie to better respond to said phrases.
   </p>
-  <input type="text" placeholder="add phrases separated by commas" id="phrases"></input>
-  <button type="submit" id="submitButton">Submit</button>
+  <form action="/bulletin" method="post">
+    <div>
+      <label for="phrases">Enter phrases separated by commas:
+      </label>
+      <textarea placeholder="add phrases separated by commas" id="phrases" name="user_phrases"></textarea>
+    </div>
+    <div class="button">
+      <button type="submit" id="submitButton">Submit</button>
+    </div>
+    <!--<input type="text" placeholder="add phrases separated by commas" id="phrases"></input>-->
+  </form>
   <a href="./bulletin.html">Go to bulletin</a>
 </body>
 <script type="text/javascript" src="assets/script/script.js"></script>
