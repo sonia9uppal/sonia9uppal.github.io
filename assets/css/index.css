@@ -1,5 +1,12 @@
 #tie-header {
-  letter-spacing: 15px;
+  letter-spacing: 40px;
+  font-family: bebasneue_bold;
+  font-size: 130px;
+}
+
+h2 {
+  font-family: bebasneue_bold;
+  letter-spacing: 3px;
 }
 
 .button {
@@ -12,4 +19,11 @@
 
 a {
   color: rgba(23, 51, 67, 0.54);
+  font-family: bebasneue_bold;
+  letter-spacing: 3px;
+}
+
+@font-face {
+   font-family: bebasneue_bold;
+   src: url('./fonts/Bebas/bebasneue_bold-webfont.woff');
 }
