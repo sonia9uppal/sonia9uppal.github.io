@@ -4,9 +4,23 @@
   font-size: 130px;
 }
 
+#h2-container {
+  text-align: center;
+  width: 100%;
+  left: 50%;
+  margin-inline-start: 28%;
+}
+
 h2 {
-  font-family: bebasneue_bold;
-  letter-spacing: 3px;
+  font-family: Playfair Display;
+  letter-spacing: 1px;
+  max-width: 40vw;
+  text-align: center;
+  color: grey;
+}
+
+i {
+  line-height: 2.2;
 }
 
 .button {
@@ -18,9 +32,10 @@ h2 {
 }
 
 a {
-  color: rgba(23, 51, 67, 0.54);
+  color: rgba(23, 51, 67, 0.44);
   font-family: bebasneue_bold;
   letter-spacing: 3px;
+  text-align: center;
 }
 
 @font-face {
