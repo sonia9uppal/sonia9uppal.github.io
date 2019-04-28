@@ -6,8 +6,6 @@
 
 #h2-container {
   text-align: center;
-  width: 100%;
-  left: 50%;
   margin-inline-start: 28%;
 }
 
@@ -23,20 +21,40 @@ i {
   line-height: 2.2;
 }
 
-.button {
+button {
   box-shadow: 0px 0px 24px rgba(23, 51, 67, 0.14);
   border-radius: 5px;
   margin: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px;
+  opacity: 0.7;
+  color: rgba(23, 51, 67, 0.44);
+  letter-spacing: 3px;
+  text-align: center;
+  border: none;
+
 }
 
-a {
+button:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+#phraseButton {
+  margin-right: 1vw;
+  font-family: bebasneue_bold;
+}
+
+#bulletinButton {
+  margin-left: 1vw;
+  font-family: bebasneue_bold;
+}
+
+/*a {
   color: rgba(23, 51, 67, 0.44);
   font-family: bebasneue_bold;
   letter-spacing: 3px;
   text-align: center;
-}
+}*/
 
 @font-face {
    font-family: bebasneue_bold;
