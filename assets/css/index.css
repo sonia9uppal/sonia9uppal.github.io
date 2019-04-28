@@ -49,13 +49,6 @@ button:hover {
   font-family: bebasneue_bold;
 }
 
-/*a {
-  color: rgba(23, 51, 67, 0.44);
-  font-family: bebasneue_bold;
-  letter-spacing: 3px;
-  text-align: center;
-}*/
-
 @font-face {
    font-family: bebasneue_bold;
    src: url('./fonts/Bebas/bebasneue_bold-webfont.woff');
