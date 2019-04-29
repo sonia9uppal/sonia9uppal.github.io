@@ -1,7 +1,9 @@
 #tie-header {
-  letter-spacing: 40px;
-  font-family: bebasneue_bold;
-  font-size: 130px;
+  letter-spacing: 30px;
+  font-family: neuzeit-grotesk-condensed;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 120px;
 }
 
 #h2-container {
