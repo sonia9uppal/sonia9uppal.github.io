@@ -23,9 +23,6 @@ request.onload = function() {
       cardContainer.appendChild(card);
     });
 
-
-
-    // console.log(data);
   } else {
     console.log('The request status is ' + request.status);
   }
