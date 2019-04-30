@@ -48,3 +48,37 @@ button:focus {
   font-weight: 400;
   font-style: normal;
 }
+
+.card {
+  box-shadow: 0px 0px 24px rgba(23, 51, 67, 0.14);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+
+p {
+  font-family: Playfair Display;
+  letter-spacing: 1px;
+  color: grey;
+  font-style: italic;
+  line-height: 2.2;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(23, 51, 67, 1);
+  text-shadow: 0px 0px 24px rgba(23, 51, 67, 0.54);
+}
+
+a.hover {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  width: 0px;
+  height: 5px;
+  margin: 5px 0 0;
+  transition: all 0.2s ease-in-out;;
+  transition-duration: 0.75s;
+  opacity: 1;
+  left: 0;
+}
