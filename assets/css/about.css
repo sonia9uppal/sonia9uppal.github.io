@@ -1,65 +1,33 @@
-#tie-header {
-  letter-spacing: 30px;
-  font-family: neuzeit-grotesk-condensed;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 120px;
-}
-
-#h2-container {
-  text-align: center;
-  margin-inline-start: 28%;
-}
-
 h2 {
+  text-transform: uppercase;
+  font-size: 60px;
+  font-family: neuzeit-grotesk-condensed;
+  font-weight: 400;
+  font-style: normal;
+  max-width: 73%;
+}
+
+p {
   font-family: Playfair Display;
-  letter-spacing: 1px;
-  max-width: 40vw;
-  text-align: center;
+  letter-spacing: 0.8px;
   color: grey;
+  line-height: 1.6;
 }
 
-a {
-  text-decoration: none;
-}
-
-#foot {
+#bio-container {
   font-size: 12px;
-  text-decoration: none;
-  border-bottom: 1px solid rgba(23, 51, 67, 0.34);
-  font-family: Playfair Display;
-  letter-spacing: 1px;
-  color: rgba(23, 51, 67, 0.34);
-  position: static;
-
-  -webkit-transition: color 0.20s ease-in-out;
-  -moz-transition: color 0.20s ease-in-out;
-  -ms-transition: color 0.20s ease-in-out;
-  -o-transition: color 0.20s ease-in-out;
-  transition: color 0.20s ease-in-out;
+  max-width: 46em;
 }
 
-#foot:hover {
-  color: rgba(23, 51, 67, 0.74);
-  text-decoration: none;
-  -webkit-transition: color 0.35s ease-in-out;
-  -moz-transition: color 0.35s ease-in-out;
-  -ms-transition: color 0.35s ease-in-out;
-  -o-transition: color 0.35s ease-in-out;
-  transition: color 0.35s ease-in-out;
-}
-
-#foot-container {
-  padding-top: 10em;
-  cursor: pointer;
-}
-
-i {
-  line-height: 2.2;
+#para2 {
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  font-size: 14px;
+  color: rgba(23, 51, 67, 0.94);
 }
 
 button {
-  box-shadow: 0px 0px 24px ;
+  box-shadow: 0px 0px 24px rgba(23, 51, 67, 0.14);
   border-radius: 5px;
   margin: 10px;
   padding: 10px;
@@ -93,21 +61,10 @@ button:focus {
   outline: none !important;
 }
 
-#phraseButton {
+#backButton {
   margin-right: 1vw;
   font-family: neuzeit-grotesk-condensed;
   font-weight: 400;
   font-style: normal;
-}
-
-#bulletinButton {
-  margin-left: 1vw;
-  font-family: neuzeit-grotesk-condensed;
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-   font-family: bebasneue_bold;
-   src: url('./fonts/Bebas/bebasneue_bold-webfont.woff');
+  margin-bottom: 2vw;
 }
