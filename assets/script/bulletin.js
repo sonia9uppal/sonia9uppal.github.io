@@ -11,8 +11,6 @@ request.onload = function() {
   var data = JSON.parse(this.response)
   if (request.status >= 200 && request.status< 400) {
     data.forEach(phrase => {
-      console.log(phrase);
-
       var card = document.createElement('div');
       card.setAttribute('class', 'fl tc pv4 card');
 

@@ -25,33 +25,21 @@ submitButton.addEventListener('click', function() {
   }
 
   // console.log(phraseArraySplit);
-  var jsonObj = {phrases: phraseArraySplit};
+  var jsonObj = {"phrases": phraseArraySplit};
   console.log(jsonObj);
   var url = 'https://31ogaol5hd.execute-api.us-west-1.amazonaws.com/dev/phrases';
 
   fetch(url, {
     method: 'POST', // or 'PUT'
     body: JSON.stringify(jsonObj),
-    headers:{
+    headers: {
       'Content-Type': 'application/json'
     }
   }).then(res => res.json())
-  .then(response => console.log('Success:', JSON.stringify(response)))
+  .then(function(response) {
+    console.log('Success:', JSON.stringify(response));
+    window.location.href = "./bulletin.html";
+  })
   .catch(error => console.error('Error:', error));
-
-  window.location.href="./bulletin.html";
-
+  
 });
-
-
-
-/*submitButton.onClick = function({
-  console.log('button has been clicked');
-});*/
-
-/*let phraseArray = phrases.split(',');
-for (phrase of phraseArray) {
-  phrase.trim();
-}
-
-let newPhraseText = document.createElement("p");*/
