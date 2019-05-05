@@ -111,3 +111,25 @@ button:focus {
    font-family: bebasneue_bold;
    src: url('./fonts/Bebas/bebasneue_bold-webfont.woff');
 }
+
+@media screen and (max-width: 600px) {
+  #tie-header {
+    letter-spacing: 15px;
+    font-family: neuzeit-grotesk-condensed;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 80px;
+  }
+  #h2-container {
+    margin-inline-start: 0%;
+  }
+  i {
+    width: 70%;
+  }
+  #foot-container {
+    padding-top: 2em;
+  }
+  h2 {
+    max-width: 80vw;
+  }
+}

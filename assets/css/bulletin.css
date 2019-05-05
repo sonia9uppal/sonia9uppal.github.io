@@ -93,3 +93,23 @@ a.hover {
   -o-transition: box-shadow 0.25s ease-in-out, color 0.25s ease-in-out;
   transition: box-shadow 0.25s ease-in-out, color 0.25s ease-in-out;
 }
+
+.margin-left {
+  margin-left: 8rem;
+}
+
+@media screen and (max-width: 600px) {
+  h2 {
+    font-family: neuzeit-grotesk-condensed;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+  }
+  p {
+    width: 70%;
+    font-size: 15px;
+  }
+  .margin-left {
+    margin-left: 3rem;
+  }
+}

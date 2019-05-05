@@ -98,3 +98,30 @@ a {
 i {
   color: rgba(23, 51, 67, 0.5);
 }
+
+.margin-left {
+  margin-left: 8rem;
+}
+
+@media screen and (max-width: 600px) {
+  h2 {
+    margin-left: 0%;
+  }
+  #bio-container {
+    max-width: 90%;
+  }
+  .bigpara {
+    max-width: 100%;
+    text-align: left;
+    float: left;
+  }
+  .margin-left {
+    margin-left: 3rem;
+  }
+  .smallpara {
+    margin-left: 3rem;
+  }
+  button {
+    float: left;
+  }
+}
