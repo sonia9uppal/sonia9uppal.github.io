@@ -76,7 +76,10 @@ h2 {
 }
 
 .padding6 {
-  padding: 8rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 
 @media screen and (max-width: 600px) {
