@@ -1,0 +1,10 @@
+div {
+  background-image: url("../images/1.png");
+  background-size: cover;
+  height: 2000px;
+}
+
+#pic {
+  width: 88%;
+  height: 88%;
+}
