@@ -1,0 +1,113 @@
+h2 {
+  font-size: 60px;
+  font-family: Mansalva;
+  font-weight: 400;
+  font-style: normal;
+  max-width: 73%;
+}
+
+button {
+  box-shadow: 0px 0px 24px rgba(23, 51, 67, 0.14);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  opacity: 0.7;
+  color: rgba(23, 51, 67, 0.24);
+  letter-spacing: 1px;
+  text-align: center;
+  border: none;
+
+  -webkit-transition: box-shadow 0.25s ease-in-out, color 0.25s ease-in-out;
+  -moz-transition: box-shadow 0.25s ease-in-out, color 0.25s ease-in-out;
+  -ms-transition: box-shadow 0.25s ease-in-out, color 0.25s ease-in-out;
+  -o-transition: box-shadow 0.25s ease-in-out, color 0.25s ease-in-out;
+  transition: box-shadow 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+
+button:hover {
+  opacity: 1;
+  box-shadow: 0px 0px 24px rgba(23, 51, 67, 0.28);
+  color: rgba(23, 51, 67, 0.34);
+  cursor: pointer;
+
+  -webkit-transition: box-shadow 0.25s ease-in-out, color 0.25s ease-in-out;
+  -moz-transition: box-shadow 0.25s ease-in-out, color 0.25s ease-in-out;
+  -ms-transition: box-shadow 0.25s ease-in-out, color 0.25s ease-in-out;
+  -o-transition: box-shadow 0.25s ease-in-out, color 0.25s ease-in-out;
+  transition: box-shadow 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+#backButton {
+  margin-right: 1vw;
+  font-family: Rubik;
+  font-weight: 900;
+  font-style: normal;
+  margin-bottom: 2vw;
+}
+
+.card {
+  box-shadow: 0px 0px 24px rgba(23, 51, 67, 0.14);
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+p {
+  font-family: Rubik;
+  letter-spacing: 1px;
+  color: DarkGrey;
+  line-height: 2.2;
+}
+
+h3 {
+  font-size: 12px;
+  font-family: Rubik;
+  font-weight: 400;
+  font-style: normal;
+  max-width: 45em;
+  min-width: 10em;
+  line-height: 1.7;
+  letter-spacing: 1px;
+  padding-left: 3px;
+  padding-right: 3px;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+a {
+  text-decoration: none;
+  color: rgba(23, 51, 67, 1);
+  text-shadow: 0px 0px 24px rgba(23, 51, 67, 0.54);
+}
+
+a.hover {
+  -webkit-transition: underline 0.25s ease-in-out, color 0.25s ease-in-out;
+  -moz-transition: box-shadow 0.25s ease-in-out, color 0.25s ease-in-out;
+  -ms-transition: box-shadow 0.25s ease-in-out, color 0.25s ease-in-out;
+  -o-transition: box-shadow 0.25s ease-in-out, color 0.25s ease-in-out;
+  transition: box-shadow 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+
+.margin-left {
+  margin-left: 8rem;
+}
+
+@media screen and (max-width: 600px) {
+  h2 {
+    font-family: neuzeit-grotesk-condensed;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+  }
+  p {
+    width: 70%;
+    font-size: 15px;
+  }
+  .margin-left {
+    margin-left: 3rem;
+  }
+}

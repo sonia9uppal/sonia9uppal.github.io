@@ -1,0 +1,126 @@
+h2 {
+  font-size: 60px;
+  font-family: Mansalva;
+  max-width: 73%;
+  padding-top: 0.3em;
+}
+
+p {
+  font-family: Rubik;
+  letter-spacing: 0.8px;
+  color: grey;
+  line-height: 1.7;
+  color: rgba(23, 51, 67, 0.80);
+}
+
+#bio-container {
+  font-size: 12px;
+  max-width: 48em;
+}
+
+.bigpara {
+  padding-top: 4.2em;
+  padding-bottom: 0.8em;
+  font-size: 14px;
+  color: rgba(23, 51, 67, 0.96);
+  text-align: right;
+  align-items: flex-end;
+  justify-content: flex-end;
+  max-width: 45em;
+  float: right;
+  display: block;
+  line-height: 1.7;
+}
+
+#bigparacontainer {
+  padding-left: 3em;
+  display: flex;
+
+}
+
+.smallpara {
+  color: rgba(23, 51, 67, 0.44);
+  line-height: 1.7;
+}
+
+button {
+  box-shadow: 0px 0px 24px rgba(23, 51, 67, 0.14);
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  opacity: 0.7;
+  color: rgba(23, 51, 67, 0.24);
+  letter-spacing: 1px;
+  text-align: center;
+  border: none;
+  float: right;
+  align-items: flex-end;
+  justify-content: flex-end;
+
+  -webkit-transition: box-shadow 0.25s ease-in-out, color 0.25s ease-in-out;
+  -moz-transition: box-shadow 0.25s ease-in-out, color 0.25s ease-in-out;
+  -ms-transition: box-shadow 0.25s ease-in-out, color 0.25s ease-in-out;
+  -o-transition: box-shadow 0.25s ease-in-out, color 0.25s ease-in-out;
+  transition: box-shadow 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+
+button:hover {
+  opacity: 1;
+  box-shadow: 0px 0px 24px rgba(23, 51, 67, 0.28);
+  color: rgba(23, 51, 67, 0.34);
+  cursor: pointer;
+
+  -webkit-transition: box-shadow 0.25s ease-in-out, color 0.25s ease-in-out;
+  -moz-transition: box-shadow 0.25s ease-in-out, color 0.25s ease-in-out;
+  -ms-transition: box-shadow 0.25s ease-in-out, color 0.25s ease-in-out;
+  -o-transition: box-shadow 0.25s ease-in-out, color 0.25s ease-in-out;
+  transition: box-shadow 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+#backButton {
+  font-family: Rubik;
+  font-weight: 900;
+  margin-bottom: 2vw;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(23, 51, 67, 0.8);
+  text-shadow: 0px 0px 24px rgba(23, 51, 67, 0.54);
+}
+
+i {
+  color: rgba(23, 51, 67, 0.5);
+}
+
+.margin-left {
+  margin-left: 8rem;
+}
+
+@media screen and (max-width: 600px) {
+  h2 {
+    margin-left: 0%;
+  }
+  #bio-container {
+    max-width: 90%;
+  }
+  .bigpara {
+    max-width: 100%;
+    text-align: left;
+    float: left;
+  }
+  .margin-left {
+    margin-left: 3rem;
+  }
+  .smallpara {
+    margin-left: 3rem;
+  }
+  button {
+    float: left;
+  }
+}
