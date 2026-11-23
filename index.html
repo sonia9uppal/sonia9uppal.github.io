@@ -1,9 +1,54 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <title>@sketchy.sonia</title>
-  <meta http-equiv="refresh" content="0; URL='http://soniamakes.art'" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f4f2ed">
+  <title>Sonia</title>
+  <meta name="description" content="Sonia's pictures, hung in a gallery you can walk through.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23f4f2ed'/%3E%3Crect x='9' y='7' width='14' height='18' fill='none' stroke='%231b1d24' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="preload" href="./fonts/sonia-handwriting.ttf" as="font" type="font/ttf" crossorigin>
+  <script type="module" crossorigin src="./assets/index-DNIr_Xm8.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-Cf4L4d7S.css">
 </head>
 <body>
+  <canvas id="scene" aria-label="A walk-through gallery of Sonia's pictures"></canvas>
+
+  <div id="hint" class="tag" role="status"></div>
+  <div id="pointer-cue" aria-hidden="true" hidden></div>
+
+  <section id="caption" class="tag" aria-live="polite">
+    <button id="prev" aria-label="previous picture">
+      <svg viewBox="0 0 40 24"><path d="M37 12.5C27 11 15 12.6 4 12M12 4.5C9 7.6 6.4 9.9 3.4 12.2c3 2 5.6 4.4 8.2 7.6"/></svg>
+    </button>
+    <div id="caption-text"><span id="caption-num"></span> <span id="caption-of"></span></div>
+    <button id="next" aria-label="next picture">
+      <svg viewBox="0 0 40 24"><path d="M3 12.5C13 11 25 12.6 36 12M28 4.5c3 3.1 5.600 5.400 8.600 7.700-3 2-5.600 4.400-8.200 7.600"/></svg>
+    </button>
+    <button id="back">step back</button>
+  </section>
+
+  <section id="index" aria-label="all the pictures">
+    <header>
+      <h2>all the pictures</h2>
+      <button id="close-index">back to the gallery</button>
+    </header>
+    <div id="index-grid"></div>
+  </section>
+
+  <div id="veil"></div>
+
+  <div id="intro">
+    <div id="intro-inner">
+      <h1>Sonia</h1>
+      <p id="intro-note"></p>
+      <div id="intro-foot">
+        <div id="intro-bar"><i></i></div>
+        <button id="enter" disabled>enter</button>
+      </div>
+    </div>
+  </div>
+
+  <noscript>This gallery needs JavaScript to open its doors.</noscript>
 </body>
 </html>
